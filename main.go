@@ -26,6 +26,9 @@ func main() {
 	fmt.Println(x, y)
 
 	demo_pointers()
+
+	s := hello()
+	fmt.Println(s)
 }
 
 func loops_demo() {
